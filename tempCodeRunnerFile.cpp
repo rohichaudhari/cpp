@@ -1,3 +1,2 @@
 
-        cout<<"run:"<<run<<endl;
-        cout<<"calcavg:"<<calcavg<<endl;
+        cout<<"enter admin no:";
