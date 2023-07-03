@@ -18,7 +18,7 @@ class SOLID
     }
     SOLID(double r)
     {
-        cout<<"volume of sphere:"<<4*3.14*r*r*r/3<<endl;
+        cout<<"volume of sphere:"<<4*3.14*r*r/3<<endl;
     }
     SOLID(double r,int h)
     {
