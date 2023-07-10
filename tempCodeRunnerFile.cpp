@@ -1,2 +1,2 @@
 
-        cout<<"enter admin no:";
+            cout<<m*n<<endl;
