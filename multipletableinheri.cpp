@@ -15,16 +15,6 @@ class base2
 {
 protected:
 int n=1;
-public:
-void setN()
-{
-    cout<<"enter n:";
-    cin>>n;
-    for(n=1;n<=10;n++)
-    {
-        cout<<n<<endl;
-    }
-}
 };
 class derived:public base1,public base2
 {
@@ -32,12 +22,12 @@ class derived:public base1,public base2
     int i,c;
     void table()
     {
-        cout<<"m"<<"\tn"<<"\tc"<<endl;
+        
         for(i=1;i<=10;i++)
         {
             c=m*i;
-            cout<<c<<endl;
             cout<<m<<"\t"<<n<<"\t"<<c<<endl;
+            n++;
         }
     }
 };
@@ -45,7 +35,6 @@ int main()
 {
     derived x;
     x.setM();
-    x.setN();
     x.table();
 }
 

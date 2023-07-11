@@ -1,2 +1,2 @@
 
-            cout<<m*n<<endl;
+        cout<<"XYZ called..."<<endl;
